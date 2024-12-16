@@ -19,6 +19,9 @@ Home Directory
 - /yazi/theme.toml
 - /yazi/yazi.toml
 - /fastfetch/config.jsonc
+- /rstudio/rstudio-prefs.json
+- /rstudio/themes/kanagawa.rstheme
+- /.config/helix/config.toml
 
 
 #### 3 - Install Programs not yet installed
