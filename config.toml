@@ -1,0 +1,4 @@
+theme = 'kanagawa'
+
+[editor] 
+line-number = 'relative'
