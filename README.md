@@ -22,6 +22,8 @@ Home Directory
 - /rstudio/rstudio-prefs.json
 - /rstudio/themes/kanagawa.rstheme
 - /.config/helix/config.toml
+- /.config/kitty/kitty.conf
+- /.config/kitty/startup.conf
 
 
 #### 3 - Install Programs not yet installed
