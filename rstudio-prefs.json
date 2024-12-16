@@ -1,0 +1,8 @@
+{
+    "editor_theme": "Kanagawa",
+    "initial_working_directory": "~",
+    "highlight_selected_line": true,
+    "indent_guides": "gray",
+    "syntax_color_console": true,
+    "posix_terminal_shell": "bash"
+}
