@@ -1,0 +1,29 @@
+.xfce4-panel#XfcePanelWindow {
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+}
+
+.tasklist button:checked {
+ border-bottom: 3px solid orange;
+}
+
+.flat,
+.toggle {
+	font-family: ´Helvetica´;
+	font-size: 16px;
+	padding:4px
+}
+.flat:hover,
+.toggle:hover {
+	font-family: ´Helvetica´;
+	font-size: 16px;
+	padding: 4px;
+}
+.flat:checked,
+.toggle:checked {
+	font-family: ´Helvetica´;
+	font-size: 16px;
+	padding: 4px;
+}
