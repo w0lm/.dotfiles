@@ -46,7 +46,7 @@ config.keys = {
   { key = 'l', mods = 'CTRL', action = act.ActivatePaneDirection 'Right', },
   { key = 't', mods = 'CTRL', action = act.SpawnTab 'CurrentPaneDomain' },
   { key = 'w', mods = 'CTRL', action = act.CloseCurrentTab{ confirm = false } },
-  { key = 'x', mods = 'CTRL', action = act.CloseCurrentPane{ confirm = false } },
+  { key = 'x', mods = 'CTRL', action = act.CloseCurrentPane{ confirm = true} },
   { key = 'b', mods = 'LEADER|CTRL', action = act.SendString '\x02', },
   { key = 'Enter', mods = 'LEADER', action = act.ActivateCopyMode, },
   { key = 'k', mods = 'CTRL|ALT', action = act.Multiple
