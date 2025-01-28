@@ -5,8 +5,8 @@ local act = wezterm.action
 -- Hold Config
 local config = wezterm.config_builder()
 --Config
-config.color_scheme = 'Kanagawa (Gogh)'
-config.font = wezterm.font('Fragment Mono')
+config.color_scheme = 'Solarized Dark (Gogh)'
+config.font = wezterm.font('BlexMono Nerd Font')
 config.font_size = 15
 --Window Settings
 config.window_background_opacity = 0.9
