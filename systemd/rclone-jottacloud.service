@@ -1,0 +1,21 @@
+[Unit]
+Description=Jottacloud (rclone)
+AssertPathIsDirectory=%h/jottacloud
+# Make sure network is enabled
+After=network.target
+
+[Service]
+Type=simple
+
+ExecStart=/usr/bin/rclone mount --vfs-cache-mode full jottacloud: %h/jottacloud
+
+# Perform lazy unmount
+ExecStop=/usr/bin/fusemount -zu %h/jottacloud
+
+# Restart the service whenever rclonoe exits with a non-zero exit code
+Restart=on-failure
+RestartSec=15
+
+[Install]
+#Autostart after reboot
+WantedBy=default.target
