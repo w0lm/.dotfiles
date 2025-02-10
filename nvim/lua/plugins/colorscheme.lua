@@ -1,5 +1,5 @@
 return {
-  --add sonokai
+  --[[ --add sonokai
   { "sainnhe/sonokai" },
 
   {
@@ -8,6 +8,16 @@ return {
       sonokai_style = "maia",
       sonokai_transparent_background = 1,
       colorscheme = "sonokai",
+    },
+  },
+  --]]
+  --Flexoki
+  { "nuvic/flexoki-nvim", name = "flexoki" },
+
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "flexoki",
     },
   },
 }
