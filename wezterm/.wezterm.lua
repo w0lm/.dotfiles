@@ -11,8 +11,8 @@ config.font_size = 15
 --Window Settings
 config.window_background_opacity = 0.80
 config.window_decorations = "TITLE|RESIZE"
-config.initial_rows = 26
-config.initial_cols = 110
+config.initial_rows = 36
+config.initial_cols = 130
 --Inactive Pane
 config.inactive_pane_hsb = {
 	saturation = 0.8,
@@ -63,6 +63,9 @@ config.keys = {
 	},
 	{ key = "r", mods = "LEADER", action = act.ActivateKeyTable({ name = "resize_pane", one_shot = false }) },
 }
+
+--zsh on startup
+config.default_prog = { "zsh" }
 
 --statup config
 wezterm.on("gui-startup", function()
